@@ -6,7 +6,7 @@ baseurl: ''
 profilepic: '/images/mahato.jpg'
 bkimage: '/images/bg.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: 'https://use.fontawesome.com/releases/v5.15.1/js/all.js'
+font_awesome: 'https://kit.fontawesome.com/e3b1c68a0d.js'
 
 author:
   name: 'Vivek Mahato'
