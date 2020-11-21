@@ -5,7 +5,7 @@
   img: images/pypipackage.png
   desc: A package for time-series classification models.
   
- - name: NSW for Time Series Classification
+- name: NSW for Time Series Classification
   gh_user: vivekmahato
   repo: NSW
   img: images/nsw.png
