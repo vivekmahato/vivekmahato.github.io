@@ -1,8 +1,12 @@
 # projects section data
-# If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: MLOTS
   gh_user: vivekmahato
   repo: mlots
   img: images/pypipackage.png
   desc: A package for time-series classification models.
+  
+ - name: NSW for Time Series Classification
+  gh_user: vivekmahato
+  repo: NSW
+  img: images/nsw.png
+  desc: Navigable Small Worlds (NSW) for Time-Series Classification. Supports Euclidean and DTW as the distance measures.
