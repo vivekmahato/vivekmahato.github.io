@@ -14,6 +14,6 @@
 - name: Approximate-Nearest Neighbour using Mac-Fac strategy
   gh_user: vivekmahato
   repo: Approximate-NN
-  img: images/mac-fac.png
+  img: images/mac-fac.jpg
   desc: Approximate_Nearest neighbour techniques like Annoy and HNSW are enhanced with Mac-Fac strategy. The models thus are much speedier with minimal drop in accuracy.
  
