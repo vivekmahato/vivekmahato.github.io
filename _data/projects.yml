@@ -10,3 +10,10 @@
   repo: NSW
   img: images/nsw.png
   desc: Navigable Small Worlds (NSW) for Time-Series Classification. Supports Euclidean and DTW as the distance measures.
+  
+- name: Approximate-Nearest Neighbour using Mac-Fac strategy
+  gh_user: vivekmahato
+  repo: Approximate-NN
+  img: images/mac-fac.png
+  desc: Approximate_Nearest neighbour techniques like Annoy and HNSW are enhanced with Mac-Fac strategy. The models thus are much speedier with minimal drop in accuracy.
+ 
