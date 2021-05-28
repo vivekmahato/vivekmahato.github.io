@@ -3,13 +3,13 @@ title: Vivek Mahato
 description: 'Business Card Page'
 url: 'https://www.vivekmahato.com'
 baseurl: ''
-profilepic: '/images/mahato.jpg'
+profilepic: '/images/vivekmahato.JPG'
 bkimage: '/images/bg.jpg'
 #google_analytics: UA-XXXXXX-X
 font_awesome: 'e3b1c68a0d.js'
 
 author:
-  name: 'Vivek Mahato'
+  name: 'Dr. Vivek Mahato, PhD'
   email: vivekmahato@live.com
   twitter_username: mistermahato
 #  facebook_username: joshgerdes
