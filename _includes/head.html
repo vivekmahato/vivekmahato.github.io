@@ -53,6 +53,34 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
   <script src="https://kit.fontawesome.com/{{ site.font_awesome }}" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <script>
+    var drawDuration = 24
+
+var myAnim = new Vivus ('mySVG', {
+	duration: drawDuration,
+	start: 'autostart',
+	type: 'scenario-sync',
+});
+
+var animator = function(){
+  myAnim.play();
+}
+
+function fadeInNodes(step, maxStep) {
+	setTimeout(function () {
+		$('.circle.step' + step).addClass('blue-bg');
+		if (step < maxStep) {
+			fadeInNodes(++step, maxStep)
+		}
+	}, 1000)
+}
+
+window.onload = function () {
+	setTimeout(function () {
+		fadeInNodes(1, 5)
+	}, 1000)
+}
+  </script>
 
   {% if site.google_analytics %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
